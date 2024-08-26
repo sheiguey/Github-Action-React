@@ -25,6 +25,7 @@ jobs :
                 node-version : 22
             - name : install dependencies
               run  : npm install
-            - name : Run deploy
-              run  : echo "deploy"
-
+            - name : build the project
+              run  : npm run build
+            - name : deploy
+              run  : echo "deploy project"
