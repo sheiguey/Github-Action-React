@@ -3,7 +3,7 @@ on :
   workflow_dispatch
 jobs :
   first-job :
-        runs-on : ubuntu-laest
+        runs-on : ubuntu-latest
         steps :
              - name : print greetings
                run : echo "hello world"
