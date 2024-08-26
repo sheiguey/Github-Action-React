@@ -1,0 +1,11 @@
+name : Simple workflow to learn github actions
+on :
+  workflow_dispatch
+jobs :
+  first-job :
+        runs-on : ubuntu-laest
+        steps :
+             - name : print greetings
+               run : echo "hello world"
+             - name : print goodbye
+               run : echo "goodbye devops"
