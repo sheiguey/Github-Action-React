@@ -20,7 +20,7 @@ jobs :
             - name : Get the code
               uses : actions/checkout@v4
             - name : install node js
-              uses : actions/setup-node@v4
+              uses : actions/setup-node@v4gt
               with :
                 node-version : 22
             - name : install dependencies
